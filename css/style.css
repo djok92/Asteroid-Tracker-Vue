@@ -1,0 +1,104 @@
+.form-container {
+    max-width: 500px;
+    margin-bottom: 50px;
+    text-align: center
+}
+
+.form-container .field>label {
+    text-align: center
+}
+
+.form-container .field {
+    margin-bottom: 30px;
+}
+
+.form-container .submit-btn {
+    width: 200px;
+    height: 50px;
+    margin-bottom: 30px;
+}
+
+.asteroid-table {
+    margin: 0 auto;
+    text-align: center
+}
+.asteroid-table thead tr th {
+    padding: 10px 5px;
+    font-size: 20px;
+    width: 200px;
+}
+
+.asteroid-table tbody tr td {
+    padding: 10px 5px;
+}
+
+.input-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 100px auto;
+}
+
+.input-container>.field {
+    width: 400px;
+}
+
+#selected-asteroids {
+    padding: 20px;
+}
+
+#selected-asteroids>.selected-asteroid {
+    width: 200px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.generate-results {
+    display: block;
+    margin: 0 auto;
+    width: 200px;
+    height: 50px;
+}
+
+.main-container {
+    margin-bottom: 200px;
+}
+
+.bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 400px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.results-ul {
+    margin-top: 100px;
+}
+
+.bar .name {
+    margin-right: 20px;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.orange {
+    background-color: orange;
+}
+
+.red {
+    background-color: red;
+}
+
+.green {
+    background-color: green;
+}
+
+.value {
+    width: 200px;
+    padding-left: 10px;
+}
